@@ -1,83 +1,157 @@
 ## Курс HTML для JavaScript разработчиков
----
+
 [Ссылка на курс](https://itgid.info/ru/course/html)
+
 [Ссылка на сертификат](https://itgid.info/ru/certificate/view?Certificate[uid]=4d8jmh9vdazn)
-#### Пример задания, фото
+
 ---
+
+### Пример задания и его решения, фото: Unit 13
+
 ![sprint_13](https://user-images.githubusercontent.com/44125451/217345873-11528958-34c9-4287-bd74-4f6ca89fa614.gif)
-#### Технологии
+
+![gif_sprint_13](https://github.com/SimAndrew/forkify-app-js/assets/44125451/01602097-3011-4086-81e1-5ad3b0d4d408)
+
 ---
-* HTML
-* CSS 
-* Flex
-* Grid
-* Адаптивная верстка
-* Bootstrap 
-* Gulp
-#### Уроки
+
+### Пример задания и его решения: Unit 13 Task 1
+
+```
+unit_13.html
+<div class="section">
+    <p>
+       <b>Task 1.</b> Создайте анимацию. Блок должен становиться круглым.
+       Цвет - orangered. Анимация должна повторяться 3 раза.
+    </p>
+    <div class="out-1">
+       <div class="block block-1 bg-darkcyan"></div>
+    </div>
+</div>
+
+unit_13.css
+.block-1 {
+  animation-name: block1;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+
+@keyframes block1 {
+  0% {
+  }
+  50% {
+    border-radius: 50%;
+    background-color: orangered;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
+```
+
 ---
-1. Спринт 01. Основные теги html
-2. Спринт 02. Основы css. Понятие классов, стилей. Написание css кода
-3. Спринт 03. Правильная организация css кода
-4. Спринт 04. Позиционирование элементов. Табличная верстка
-5. Спринт 05. Позиционирование элементов. Свойство position
-6. Спринт 06. Позиционирование практика
-7. Спринт 07. Позиционирование элементов. Float
-8. Спринт 08. Позиционирование элементов. Flex
-9. Спринт 09. Позиционирование элементов. Grid layout
-10. Спринт 10. Структура сайта. html 5 теги. Семантика
-11. Спринт 11. Адаптивность сайта. Перестройка сайта под мобильные устройства
-12. Спринт 12. Псевдоэлементы и псевдоклассы
-13. Спринт 13. Основы анимации
-#### Структура
+
+### Технологии:
+
+- Теги HTML
+- Виды тегов
+- Верстка HTML страницы
+- CSS, Классы, id, Стили
+- Блочные и строчные элементы
+- Позиционирование элементов
+- Float, Flex, Grid
+- Адаптивная верстка
+- Медиа запросы
+- HTML5, валидация кода
+- Семантическая верстка
+- Псевдоклассы и Псевдоэлементы
+- Анимация, @keyframe
+- [gulpjs.com](https://gulpjs.com/)
+- [getbootstrap.com](https://getbootstrap.com/)
+- Проект курса создание сайта резюме с заполнением данными на основе JavaScript. Верстка с применением фреймворка
+  Boostrap. Сборка проекта, минимизация файлов CSS, JS с помощью сборщика Gulp.
+
 ---
-От main идет ветка с названием урока. В ней файлы: html, css, js, images. 
-Задание в html, решение в html, css или js файле.
-#### Запуск приложения
+
+### Уроки:
+
+- Спринт 01. Основные теги html
+
+  branch: `sprint-01-basic-html-tags`
+- Спринт 02. Основы css. Понятие классов, стилей. Написание css кода
+- Спринт 03. Правильная организация css кода
+- Спринт 04. Позиционирование элементов. Табличная верстка
+- Спринт 05. Позиционирование элементов. Свойство position
+- Спринт 06. Позиционирование практика
+- Спринт 07. Позиционирование элементов. Float
+- Спринт 08. Позиционирование элементов. Flex
+- Спринт 09. Позиционирование элементов. Grid layout
+- Спринт 10. Структура сайта. html 5 теги. Семантика
+- Спринт 11. Адаптивность сайта. Перестройка сайта под мобильные устройства
+- Спринт 12. Псевдоэлементы и псевдоклассы
+- Спринт 13. Основы анимации
+- Спринт 14. Готовим Gulp для проекта
+- Спринт 15. Начинаем проект сайта резюме CV
+- Спринт 16. Развертываем проект. Bootstrap и скелет
+- Спринт 17. Проект. Блок фото, контактов, навыков, достижений
+- Спринт 18. Проект. Верстаем правый блок с опытом работы.
+- Спринт 19. Проект. Адаптируем под мобильные устройства
+- Спринт 20. Заливаем проект на бесплатный хостинг
+- Спринт 21. Делаем вывод информации с помощью JavaScript
+
 ---
-- Выбрать ветку
+
+### Структура:
+
+От main идут ветки под каждый спринт.
+
+Branch: `sprint-01-basic-html-tags` ветка с названием урока.
+
+В ней файлы: `unit_01.html, unit_01.css, script.js, images`
+
+Задание в `unit_01.html`, решение в `unit_01.html, unit_01.css или script.js` файле.
+
+---
+
+### Запуск приложения:
+
+- Выбрать ветку например: branch: `sprint-01-basic-html-tags`
 - Запустить live server
 
-
 ---
-
 
 ## Course Html Css for Javascript.
----
+
 [Link to the course](https://itgid.info/ru/course/html)
+
 [Link to certificate](https://itgid.info/ru/certificate/view?Certificate[uid]=4d8jmh9vdazn)
-#### Sample task, photo
+
 ---
-![sprint_13](https://user-images.githubusercontent.com/44125451/217345873-11528958-34c9-4287-bd74-4f6ca89fa614.gif)
-#### Technologies
----
+
+### Technologies:
+
 * HTML
-* CSS 
+* CSS
 * Flex
 * Grid
 * Adaptive layout
-* Bootstrap 
+* Bootstrap
 * Gulp
-#### Lessons
+
 ---
-1. sprint 01. Basic html tags
-2. sprint 02. Css basics. Classes, styles. Writing css code
-3. sprint 03. Css code organization
-4. sprint 04. Positioning of elements. Table layout
-5. sprint 05. Positioning of elements.Position property
-6. sprint 06. Positioning practice
-7. sprint 07. Positioning of elements. Float
-8. sprint 08. Positioning of elements. Flex
-9. sprint 09. Positioning of elements. Grid layout
-10. sprint 10. Website structure. Html 5 elements. Semantics
-11. sprint 11. Adaptive website. Website redesign for mobile devices
-12. sprint 12. Pseudo classes and pseudo elements
-13. sprint 13. Animation basics
-#### Structure
+
+### Structure:
+
+From main there is a branches with the name of the lesson.
+
+Branch: `sprint-01-basic-html-tags` a branch with the name of the lesson.
+
+It contains files: `unit_01.html, unit_01.css, script.js, images`
+
+Task in `unit_01.html`, task solution in `unit_01.html, unit_01.css or script.js` file.
+
 ---
-From main there is a branch with the name of the lesson. It contains files: html, css, images. 
-Task in html, task solution in html or css file.
-#### Run the app
----
-- Select branch
+
+### Run the app:
+
+- Select branch for example: branch `sprint-01-basic-html-tags`
 - Run live server
